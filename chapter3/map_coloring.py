@@ -25,7 +25,7 @@ if __name__ == "__main__":
     csp: CSP[str, str] = CSP(variables, domains)
     csp.add_constraint(MapColoringConstraint("Western Australia", "Northern Territory"))
     csp.add_constraint(MapColoringConstraint("Western Australia", "South Australia"))
-    csp.add_constraint(MapColoringConstraint("Sotuh Australia", "Northern Territory"))
+    csp.add_constraint(MapColoringConstraint("South Australia", "Northern Territory"))
     csp.add_constraint(MapColoringConstraint("Queensland", "Northern Territory"))
     csp.add_constraint(MapColoringConstraint("Queensland", "South Australia"))
     csp.add_constraint(MapColoringConstraint("Queensland", "New South Wales"))
